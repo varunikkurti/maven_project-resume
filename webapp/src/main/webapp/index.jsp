@@ -1,120 +1,199 @@
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="resume.css">
+  <meta charset="UTF-8">
+  <title>Ben Crabtree's Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 </head>
 
 <body>
-	<div class="full">
-		<div class="left">
-			<div class="image">
-				<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220202083519/gfglogo.png"
-					alt="gfg-logo"
-					style="width:100px;height:100px;">
-			</div>
-			<div class="Contact">
-				<h2>Contact</h2>
-				<p><b>Email id:</b>xyz@gmail.com</p>
-				<p><b>Mobile no :</b>1234567890</p>
-			</div>
-			<div class="Skills">
-				<h2>Skills</h2>
-				<ul>
-					<li><b>Programming Languages :
-					Python, Java, C++</b></li>
-					<li><b>Frontend : HTML5, CSS3,
-					JavaScript, React</b></li>
-					<li><b>Backend : Node.js</b></li>
-				</ul>
-			</div>
-			<div class="Language">
-				<h2>Language</h2>
-				<ul>
-					<li>English</li>
-					<li>Hindi</li>
-				</ul>
-			</div>
-			<div class="Hobbies">
-				<h2>Hobbies</h2>
-				<ul>
-					<li>Playing cricket</li>
-					<li>Swimming</li>
-				</ul>
-			</div>
-		</div>
-		<div class="right">
-			<div class="name">
-				<h1>GeeksforGeeks</h1>
-			</div>
-			<div class="title">
-				<p>Web Developer</p>
-			</div>
-			<div class="Summary">
-				<h2>Summary</h2>
-				<p>To secure a challenging position in a
-				reputable organization
-					to expand my learning knowledge and skill
-				</p>
-			</div>
-			<div class="Experience">
-				<h2>Experience</h2>
-				<h3>Abc webdev pvt ltd - Senior Web Developer</h3>
-				<p>January 2022 to Present</p>
-				<ul>
-					<li>Actively engaged in web creative
-					design and development.</li>
-					<li>Designing project & planning</li>
-				</ul>
-				<h3>Xyz webdev pvt ltd - junior web developer</h3>
-				<p>August 2021 to December 2021</p>
-				<ul>
-					<li>Actively engaged in web creative
-					design and development.</li>
-					<li>Designing project & planning</li>
-					<li>Working on designing</li>
-				</ul>
-			</div>
-			<div class="Education">
-				<h2>Education</h2>
-				<table>
-					<tr>
-						<th>University/college </th>
-						<th>Passing year </th>
-						<th>percentage/cgpa</th>
-					</tr>
-					<tr>
-						<td>xyz</td>
-						<td>2020</td>
-						<td>8.9</td>
-					</tr>
-					<tr>
-						<td>pqr</td>
-						<td>2018</td>
-						<td>89%</td>
-					</tr>
-				</table>
-			</div>
-			<div class="project">
-				<ul>
-					<li>
-						<h2>Project1</h2>
-						<p>This project is based on html
-						& used React</p>
-					</li>
-					<li>
-						<h2>Project2</h2>
-						<p>This project is based on html
-						& used React</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+  <div class="page">
+    <div class="upper-quarter">
+      <div class="content">
+        <div class="contact-me">
+          <div class="me">
+            <img class="logo" src="https://i.imgur.com/2e6ts94.png">
+            <div class='name'>
+              <h1>Ben Crabtree</h1>
+              <h3> Designer</h3>
+              <h3 class="slash">/</h3>
+              <h3>Developer</h3>
+            </div>
+          </div>
+          <div class="contact">
+            <h3>Phone: 801.473.9154</h3>
+            <h3 class="email">Email: ben.cr@btree.us</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lower-three-quarters">
+      <div class="left-column">
+        <div class="experience">
+          <header>
+            <h2>Experience</h2>
+          </header>
+          <div class="riser">
+            <img class="ac-logo" src="https://i.imgur.com/rZ06QuQ.png">
+            <!-- bold -->
+            <h3>AncestorCloud</h3>
+            <h4>April 2015 - Present</h4>
+            <ul>
+              <li>Created user personas, designed for those personas and assisted in implementing those designs.</li>
+              <li>Determined user flows, onboarding processes and UI design for both user groups.</li>
+              <li>Wireframed, designed and generated content for investor slide deck presentations.</li>
+            </ul>
+          </div>
+          <div class="riser">
+            <img class="riser-logo" src="https://i.imgur.com/ZhSvPoL.png">
+            <!-- bold -->
+            <h3>Riser Design Agency</h3>
+            <h4>May 2014 - December 2014</h4>
+            <ul>
+              <li>Designed and illustrated several drawings for Google.</li>
+              <li>Created several landing pages for ABC. </li>
+              <li>Assisted in the branding process of multiple companies.</li>
+            </ul>
+          </div>
+          <div class="byu">
+            <img class="byu-logo" src="https://i.imgur.com/2JdJghU.png">
+            <!-- bold -->
+            <h3>BYU, Mueseum of Art & The Center for Teaching and Learning, UX/UI</h3>
+            <h4>July 2013 - April 2014</h4>
+            <ul>
+              <li>Designed the interface & navigation for the <a href="https://itunes.apple.com/us/app/sacred-gifts-brigham-young/id723165787?mt=8" target="blank">Sacred Gifts iPad app.</a></li>
+              <li>Collaborated with department heads, project managers and iOS developers.</li>
+            </ul>
+          </div>
+          <div class="vivint">
+            <img class="vivint-logo" src="https://i.imgur.com/TOGws6b.png">
+            <!-- bold -->
+            <h3>Vivint, Sales</h3>
+            <h4>April 2012 - July 2013</h4>
+            <ul>
+              <li>Top first-year representative in the Northern California office for sales production.</li>
+              <li>Provided security, medical, & smart home solutions to over 70 families.</li>
+              <li>Built successful referral system through positive customer relations. </li>
+            </ul>
+          </div>
+        </div>
+        <div class="personal-experience">
+          <header>
+            <h2>Personal Experience</h2>
+          </header>
+          <div class="waya">
+            <img class="waya-logo" src="https://i.imgur.com/Vdzz2UG.png">
+            <div class="waya-text">
+              <h3>WAYA: Hardwood Headphone Wrapper</h3>
+              <a href="http://kck.st/1yFQBO9" target="blank">http://kck.st/1yFQBO9</a>
+            </div>
+          </div>
+          <div class="fpgc">
+            <img class="fpgc-logo" src="https://i.imgur.com/cKYjhSw.png">
+            <div class="fpgc-text">
+              <h3>Frying Pans & Garbage Cans</h3>
+              <a href="http://kck.st/1oQnWpv" target="blank">http://kck.st/1oQnWpv</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="education">
+          <header>
+            <h2>Education</h2>
+          </header>
+          <div class="ed-info">
+            <img src="https://i.imgur.com/2JdJghU.png">
+            <div class="info">
+              <h3>Brigham Young University</h3>
+              <h4>Technology and Engineering Education, BS   •   December 2015</h4>
+            </div>
+          </div>
+        </div>
+        <div class="skills">
+          <header>
+            <h2>Skills</h2>
+          </header>
+          <div class="skill-lists">
+            <ul class="left">
+              <li>Sketch</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>UI Design</li>
+              <li>Slack</li>
+              <li>Adobe InDesign</li>
+              <li>User Research</li>
+              <li>Branding</li>
+            </ul>
+            <ul class="right">
+              <li>UX Design</li>
+              <li>Basic HTML/CSS</li>
+              <li>Web Design</li>
+              <li>Laser Engraving</li>
+              <li>Illustration</li>
+              <li>Storyboarding</li>
+              <li>Basic 3D Printing</li>
+              <li>Public Speaking</li>
+            </ul>
+          </div>
+        </div>
+        <div class="traits-hobbies">
+          <header>
+            <h2>Traits</h2>
+          </header>
+          <div class="traits-list">
+            <ul class="left-traits">
+              <li>Associative Thinker</li>
+              <li>Prototyper</li>
+              <li>Iterative Designer</li>
+            </ul>
+            <ul class="center-traits">
+              <li>Developer
+              </li>
+              <li>Idea Generator</li>
+              <li>Observer</li>
+            </ul>
+            <ul class="right-traits">
+              <li>Team Worker</li>
+              <li>Coder</li>
+              <li>Wood Worker</li>
+            </ul>
+          </div>
+          <div class="hobbies">
+            <header>
+              <h2>Hobbies</h2>
+            </header>
+            <div class="hobbies-list">
+              <ul class="left-hobbies">
+                <li>Kickstarter</li>
+                <li>Running</li>
+              </ul>
+              <ul class="center-hobbies">
+                <li>Illustration</li>
+                <li>Camping</li>
+              </ul>
+              <ul class="right-hobbies">
+                <li>Vinyl Cutting</li>
+                <li>Laser Engraving</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="Awards">
+          <header>
+            <h2>Awards</h2>
+          </header>
+          <div class="crocker">
+            <div class="crocker-text">
+              <h3>2015 Crocker Innovation Fellow</h3>
+              <a href="http://www.crockerinnovationfellows.com/2015-crocker-fellows.html" target="blank">www.crockerinnovationfellows.com/2015</a>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>
