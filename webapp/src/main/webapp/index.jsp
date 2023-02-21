@@ -1,199 +1,214 @@
-<html>
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Ben Crabtree's Resume</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-</head>
-
-<body>
-  <div class="page">
-    <div class="upper-quarter">
-      <div class="content">
-        <div class="contact-me">
-          <div class="me">
-            <img class="logo" src="https://i.imgur.com/2e6ts94.png">
-            <div class='name'>
-              <h1>Ben Crabtree</h1>
-              <h3> Designer</h3>
-              <h3 class="slash">/</h3>
-              <h3>Developer</h3>
-            </div>
-          </div>
-          <div class="contact">
-            <h3>Phone: 801.473.9154</h3>
-            <h3 class="email">Email: ben.cr@btree.us</h3>
-          </div>
-        </div>
-      </div>
+<div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+       <img src="https://i.imgur.com/eCijVBe.png" alt="profile_pic">
+     </div>
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+           <p class="bold">stephen colbert</p>
+           <p class="regular">Designer</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fas fa-map-signs"></i>
+             </div>
+             <div class="data">
+               21 Street, Texas <br /> USA
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-mobile-alt"></i>
+             </div>
+             <div class="data">
+               +324 4445678
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-envelope"></i>
+             </div>
+             <div class="data">
+               stephen@gmail.com
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-weebly"></i>
+             </div>
+             <div class="data">
+               www.stephen.com
+             </div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_skills">
+         <div class="title">
+           <p class="bold">skill's</p>
+         </div>
+         <ul>
+           <li>
+             <div class="skill_name">
+               HTML
+             </div>
+             <div class="skill_progress">
+               <span style="width: 80%;"></span>
+             </div>
+             <div class="skill_per">80%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               CSS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 70%;"></span>
+             </div>
+             <div class="skill_per">70%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               SASS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 90%;"></span>
+             </div>
+             <div class="skill_per">90%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               JS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 60%;"></span>
+             </div>
+             <div class="skill_per">60%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               JQUERY
+             </div>
+             <div class="skill_progress">
+               <span style="width: 88%;"></span>
+             </div>
+             <div class="skill_per">88%</div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_social">
+         <div class="title">
+           <p class="bold">Social</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fab fa-facebook-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Facebook</p>
+               <p>Stephen@facebook</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-twitter-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Twitter</p>
+               <p>Stephen@twitter</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-youtube"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Youtube</p>
+               <p>Stephen@youtube</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-linkedin"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Linkedin</p>
+               <p>Stephen@linkedin</p>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+           <p class="bold">About us</p>
+         </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis illo fugit officiis distinctio culpa officia totam atque exercitationem inventore repudiandae?</p>
     </div>
-    <div class="lower-three-quarters">
-      <div class="left-column">
-        <div class="experience">
-          <header>
-            <h2>Experience</h2>
-          </header>
-          <div class="riser">
-            <img class="ac-logo" src="https://i.imgur.com/rZ06QuQ.png">
-            <!-- bold -->
-            <h3>AncestorCloud</h3>
-            <h4>April 2015 - Present</h4>
-            <ul>
-              <li>Created user personas, designed for those personas and assisted in implementing those designs.</li>
-              <li>Determined user flows, onboarding processes and UI design for both user groups.</li>
-              <li>Wireframed, designed and generated content for investor slide deck presentations.</li>
-            </ul>
-          </div>
-          <div class="riser">
-            <img class="riser-logo" src="https://i.imgur.com/ZhSvPoL.png">
-            <!-- bold -->
-            <h3>Riser Design Agency</h3>
-            <h4>May 2014 - December 2014</h4>
-            <ul>
-              <li>Designed and illustrated several drawings for Google.</li>
-              <li>Created several landing pages for ABC. </li>
-              <li>Assisted in the branding process of multiple companies.</li>
-            </ul>
-          </div>
-          <div class="byu">
-            <img class="byu-logo" src="https://i.imgur.com/2JdJghU.png">
-            <!-- bold -->
-            <h3>BYU, Mueseum of Art & The Center for Teaching and Learning, UX/UI</h3>
-            <h4>July 2013 - April 2014</h4>
-            <ul>
-              <li>Designed the interface & navigation for the <a href="https://itunes.apple.com/us/app/sacred-gifts-brigham-young/id723165787?mt=8" target="blank">Sacred Gifts iPad app.</a></li>
-              <li>Collaborated with department heads, project managers and iOS developers.</li>
-            </ul>
-          </div>
-          <div class="vivint">
-            <img class="vivint-logo" src="https://i.imgur.com/TOGws6b.png">
-            <!-- bold -->
-            <h3>Vivint, Sales</h3>
-            <h4>April 2012 - July 2013</h4>
-            <ul>
-              <li>Top first-year representative in the Northern California office for sales production.</li>
-              <li>Provided security, medical, & smart home solutions to over 70 families.</li>
-              <li>Built successful referral system through positive customer relations. </li>
-            </ul>
-          </div>
-        </div>
-        <div class="personal-experience">
-          <header>
-            <h2>Personal Experience</h2>
-          </header>
-          <div class="waya">
-            <img class="waya-logo" src="https://i.imgur.com/Vdzz2UG.png">
-            <div class="waya-text">
-              <h3>WAYA: Hardwood Headphone Wrapper</h3>
-              <a href="http://kck.st/1yFQBO9" target="blank">http://kck.st/1yFQBO9</a>
-            </div>
-          </div>
-          <div class="fpgc">
-            <img class="fpgc-logo" src="https://i.imgur.com/cKYjhSw.png">
-            <div class="fpgc-text">
-              <h3>Frying Pans & Garbage Cans</h3>
-              <a href="http://kck.st/1oQnWpv" target="blank">http://kck.st/1oQnWpv</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="right-column">
-        <div class="education">
-          <header>
-            <h2>Education</h2>
-          </header>
-          <div class="ed-info">
-            <img src="https://i.imgur.com/2JdJghU.png">
-            <div class="info">
-              <h3>Brigham Young University</h3>
-              <h4>Technology and Engineering Education, BS   •   December 2015</h4>
-            </div>
-          </div>
-        </div>
-        <div class="skills">
-          <header>
-            <h2>Skills</h2>
-          </header>
-          <div class="skill-lists">
-            <ul class="left">
-              <li>Sketch</li>
-              <li>Adobe Photoshop</li>
-              <li>Adobe Illustrator</li>
-              <li>UI Design</li>
-              <li>Slack</li>
-              <li>Adobe InDesign</li>
-              <li>User Research</li>
-              <li>Branding</li>
-            </ul>
-            <ul class="right">
-              <li>UX Design</li>
-              <li>Basic HTML/CSS</li>
-              <li>Web Design</li>
-              <li>Laser Engraving</li>
-              <li>Illustration</li>
-              <li>Storyboarding</li>
-              <li>Basic 3D Printing</li>
-              <li>Public Speaking</li>
-            </ul>
-          </div>
-        </div>
-        <div class="traits-hobbies">
-          <header>
-            <h2>Traits</h2>
-          </header>
-          <div class="traits-list">
-            <ul class="left-traits">
-              <li>Associative Thinker</li>
-              <li>Prototyper</li>
-              <li>Iterative Designer</li>
-            </ul>
-            <ul class="center-traits">
-              <li>Developer
-              </li>
-              <li>Idea Generator</li>
-              <li>Observer</li>
-            </ul>
-            <ul class="right-traits">
-              <li>Team Worker</li>
-              <li>Coder</li>
-              <li>Wood Worker</li>
-            </ul>
-          </div>
-          <div class="hobbies">
-            <header>
-              <h2>Hobbies</h2>
-            </header>
-            <div class="hobbies-list">
-              <ul class="left-hobbies">
-                <li>Kickstarter</li>
-                <li>Running</li>
-              </ul>
-              <ul class="center-hobbies">
-                <li>Illustration</li>
-                <li>Camping</li>
-              </ul>
-              <ul class="right-hobbies">
-                <li>Vinyl Cutting</li>
-                <li>Laser Engraving</li>
-              </ul>
-            </div>
-
-          </div>
-
-        </div>
-        <div class="Awards">
-          <header>
-            <h2>Awards</h2>
-          </header>
-          <div class="crocker">
-            <div class="crocker-text">
-              <h3>2015 Crocker Innovation Fellow</h3>
-              <a href="http://www.crockerinnovationfellows.com/2015-crocker-fellows.html" target="blank">www.crockerinnovationfellows.com/2015</a>
-            </div>
-          </div>
-        </div>
-      </div>
-</body>
-
-</html>
+    <div class="resume_item resume_work">
+        <div class="title">
+           <p class="bold">Work Experience</p>
+         </div>
+        <ul>
+            <li>
+                <div class="date">2013 - 2015</div> 
+                <div class="info">
+                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2015 - 2017</div>
+              <div class="info">
+                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2017 - Present</div>
+              <div class="info">
+                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_education">
+      <div class="title">
+           <p class="bold">Education</p>
+         </div>
+      <ul>
+            <li>
+                <div class="date">2010 - 2013</div> 
+                <div class="info">
+                     <p class="semi-bold">Web Designing (Texas University)</p> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2000 - 2010</div>
+              <div class="info">
+                     <p class="semi-bold">Texas International School</p> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_hobby">
+      <div class="title">
+           <p class="bold">Hobby</p>
+         </div>
+       <ul>
+         <li><i class="fas fa-book"></i></li>
+         <li><i class="fas fa-gamepad"></i></li>
+         <li><i class="fas fa-music"></i></li>
+         <li><i class="fab fa-pagelines"></i></li>
+      </ul>
+    </div>
+  </div>
+</div>
